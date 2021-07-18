@@ -59,9 +59,9 @@ IDE - Intellij Idea
 Steps to run using postman.
 1) run the postman desktop agent
 2) on browser giving request mapping url such as
-    invoice :- http://localhost:9192/invoice/bookInvoice  (port- 9192)
     creditNote: http://localhost:9191/creditnote/bookcreditnote(port- 9191)
+    invoice :- http://localhost:9192/invoice/bookInvoice  (port- 9192)
 3)using request body,fields are given and selected Json and Post method
 4) if it's successful then used to give the response based on request.
-5) Check H2 console whether data is installed successfully by going on URL:- http://localhost:9191/h2-console/login.jsp?jsessionid=fc3a8539b1f2f3c0b1717f3a372f859a for checking   creditnote database table and hit connect to see the table created with inserted values.
-6)Check H2 console whether data is installed successfully by going on URL:- http://localhost:9192/h2-console/login.jsp?jsessionid=fc3a8539b1f2f3c0b1717f3a372f859a for checking   Invoice service database table and hit connect to see the table created with inserted values.
+5) Check H2 console whether data is installed successfully by going on URL:- http://localhost:9191/h2-console/ for checking   creditnote database table and hit connect to see the table created with inserted values.
+6)Check H2 console whether data is installed successfully by going on URL:- http://localhost:9192/h2-console/ for checking   Invoice service database table and hit connect to see the table created with inserted values.
